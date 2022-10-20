@@ -1,0 +1,20 @@
+.row, .col {
+    margin-bottom: 0.6rem;
+}
+
+/* DECORATIONS */
+.col {
+    min-height: 2rem;
+}
+
+.col:nth-child(odd) {
+    background-color: aqua;
+}
+
+.col:nth-child(even) {
+    background-color: blueviolet;
+}
+
+.row p {
+    background-color: darkcyan;
+}
